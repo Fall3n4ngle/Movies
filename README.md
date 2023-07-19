@@ -2,6 +2,10 @@
 
 This project is dedicated to film lovers from all around the world. It allows guest users to search for new movies or TV series using a wide range of filters to satisfy their most specific preferences. Authorized users can mark films and shows as favorites, add them to playlists, and rate them. They also receive a list of recommendations based on their tastes.
 
+## View app
+
+(movies-beta-pearl.vercel.app/)
+
 ## Technologies Used
 
 - _[Vite.js](https://vitejs.dev/)_;
