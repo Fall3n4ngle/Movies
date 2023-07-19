@@ -12,9 +12,9 @@ export const getItemImages = async (itemId: string, variant: IVariant) => {
 
   const { data } = response;
 
-  if ("posters" in data) {
+  if ("posters" in data && Array.isArray(data.posters)) {
     return data.posters.slice(0, 8);
-  } else if ("profiles" in data) {
+  } else if ("profiles" in data && Array.isArray(data.profiles)) {
     return data.profiles.slice(0, 8);
   }
 
