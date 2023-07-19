@@ -12,7 +12,7 @@ export const getRequestToken = async () => {
   const response: AxiosResponse<GetRequestTokenResponse> = await axios.post(
     "https://api.themoviedb.org/4/auth/request_token",
     {
-      redirect_to: "http://127.0.0.1:5173/session",
+      redirect_to: "https://react-movies-sable.vercel.app/session",
     },
     {
       headers: {
@@ -24,7 +24,7 @@ export const getRequestToken = async () => {
 
   const requestToken = response.data.request_token;
 
-  window.location.href = `https://www.themoviedb.org/auth/access?request_token=${requestToken}&redirect_to=http://127.0.0.1:5173/session`;
+  window.location.href = `https://www.themoviedb.org/auth/access?request_token=${requestToken}&redirect_to=https://react-movies-sable.vercel.app/session`;
 
   return requestToken;
 };
