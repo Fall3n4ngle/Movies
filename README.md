@@ -4,7 +4,7 @@ This project is dedicated to film lovers from all around the world. It allows gu
 
 ## View app
 
-(movies-beta-pearl.vercel.app/)
+**[movies-beta-pearl.vercel.app/](movies-beta-pearl.vercel.app/)**
 
 ## Technologies Used
 
